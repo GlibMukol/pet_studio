@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Josefin Sans, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -548,9 +548,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 480) {
   .container {
-    max-width: 640px;
+    max-width: 480;
   }
 }
 
@@ -560,21 +560,15 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 976) {
   .container {
-    max-width: 1024px;
+    max-width: 976;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1440) {
   .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
+    max-width: 1440;
   }
 }
 
@@ -1783,11 +1777,6 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2360,14 +2349,14 @@ video {
   forced-color-adjust: none;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 480) {
   .sm\:container {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 480) {
     .sm\:container {
-      max-width: 640px;
+      max-width: 480;
     }
   }
 
@@ -2377,21 +2366,15 @@ video {
     }
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 976) {
     .sm\:container {
-      max-width: 1024px;
+      max-width: 976;
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1440) {
     .sm\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .sm\:container {
-      max-width: 1536px;
+      max-width: 1440;
     }
   }
 }
@@ -2418,14 +2401,14 @@ video {
   text-align: center;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 480) {
   .sm\:underline {
     text-decoration-line: underline;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  @media (min-width: 1024px) {
+  @media (min-width: 976) {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
       paint-order: markers;
     }
